@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    font-family: "calibri", sans-serif;
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* nesse caso é 100% para largura e altura */
+    background-attachment: fixed;
+   
+}
+
+
+#header {
+	background-color: #ffffff;
+    border-bottom: 5px solid #003333;
+    margin: 0 0 40px;  
+}
+
+.container {
+	width: 1000px;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+    margin: 10px 0;
+}
+
+#menu-principal {
+    float:right;
+    margin: 27px 0; /* é 17 porque como colocamos padding no topo por causa da logo, 27px - 10px */
+}
+
+#menu-principal a{
+    color: #003333;
+    padding: 5px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#menu-principal a:hover{
+    background-color: #003333;
+    color: #ffffff;
+}
+
+.clear-float {
+	clear: both;
+}
+
+.galeria-fotos {
+	width: 1000px;
+    height: auto;
+    background-color: #f8f8f8;
+    margin: 40px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between; /* cola nas extremidades e o espaco no meio é distribuido */
+   
+}
+
+.conteudo{
+   background-color: #f8f8f8;
+   padding: 10px 20px;
+   display: flex;
+   justify-content: space-between;
+   margin: 0 0 40px 0;
+}
+
+#coluna1 {
+	width: 605px;  
+}
+
+#coluna1 p {
+	color: #666666;
+}
+
+#coluna1 p a {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    color: #003333;
+    font-size: 22px;
+    margin: 0 0 20px 0;
+}
+
+.botao {
+	display: inline-block;
+    background-color: #003333;
+    padding: 4px 26px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.botao:hover{
+    background-color: #079393;
+    color: #1a1a1a;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#coluna2 {
+	width: 332px;
+    
+}
+
+#footer{
+    background-color: #ffffff;
+    border-top: 5px solid #003333;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#footer p{
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: #003333;
+    font-size: 14px;
+    font-weight: 500;
+    text-shadow: 1px 1px 0.5px #151515;
+    
+}
